@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import LandingPage from './cs/landingPage.js'
 import Nav from './cs/Nav.js'
 import About from './cs/About.js'
+import Projects from './cs/Projects.js'
 
 class Home extends Component{
     render(){
@@ -11,6 +12,7 @@ class Home extends Component{
                 <LandingPage />
                 <Nav/> 
                 <About/>
+                <Projects />
                 {/* <div className='landing-page'>
                 </div> 
 
