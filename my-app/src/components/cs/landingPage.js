@@ -3,28 +3,9 @@ import '../../styles/landingPage.css'
 import TextLoop from "react-text-loop";
 
 class landingPage extends Component{
-    constructor(){
-        super()
-        this.state={
-            index: 0,
-            positions: ['Software Engineer', 'Data Engineer/Scientist', 'Explorer']
-        }
-    }
-
-    // componentDidMount(){
-    //     setInterval(() => this.updatePosition(), 5000)
-    // }
-
-    // updatePosition(){
-    //     let newIndex = this.state.index + 1
-    //     if (newIndex > 2){ newIndex = 0 }
-    //     this.setState({index: newIndex})
-    // }
-
     render(){
-        let position = this.state.positions[this.state.index]
         return(
-            <div className='container-flex landing-page'>
+            <div className='container-flex2 landing-page'>
                 <div className='title'>
                     <h1>
                         Hi, I'm Jia Cheng Li. <br/>

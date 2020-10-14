@@ -1,0 +1,58 @@
+.container-flex-about{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.title-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.skills-about *{
+    width: 300px;
+    height: 300px;
+}
+.skills-about > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+}
+
+.tech-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.picture-about{
+    width: 500px;
+    height: 500px;
+}
+.picture-about > img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+.tech-section > .technologies-about{
+    display: flex;
+    width: 700px;
+    height: 500px;
+    flex-wrap: wrap;
+    background: black;
+}
+.technologies-about > div{
+    display: flex;
+    width: calc(700/4 * 1px);
+    height: calc(500/3 * 1px);
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+}

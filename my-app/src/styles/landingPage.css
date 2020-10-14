@@ -1,4 +1,4 @@
-.container-flex{
+.container-flex2{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,10 +6,9 @@
 
 .landing-page{
     height: 100vh;
+    width: 100%;
     background-image: url(../images/dark_sky.PNG);
     background-size: cover;
-    /* object-fit: contain;
-    background-repeat: no-repeat; */
 }
 
 .title{
