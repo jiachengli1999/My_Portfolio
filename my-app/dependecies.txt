@@ -1,0 +1,2 @@
+npm install react-text-loop
+npm install react-router-dom --save
