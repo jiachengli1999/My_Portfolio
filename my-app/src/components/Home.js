@@ -4,6 +4,7 @@ import LandingPage from './cs/landingPage.js'
 import Nav from './cs/Nav.js'
 import About from './cs/About.js'
 import Projects from './cs/Projects.js'
+import Contacts from './Contacts.js'
 
 class Home extends Component{
     render(){
@@ -13,6 +14,7 @@ class Home extends Component{
                 <Nav/> 
                 <About/>
                 <Projects />
+                <Contacts />
                 {/* <div className='landing-page'>
                 </div> 
 
