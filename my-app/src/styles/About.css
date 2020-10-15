@@ -68,13 +68,13 @@
     width: 700px;
     height: 500px;
     flex-wrap: wrap;
-    background: black;
+    /* background: black; */
 }
-.technologies-about > div{
+.technologies-about > *{
     display: flex;
     width: calc(700/4 * 1px);
     height: calc(500/3 * 1px);
-    background-color: red;
+    /* background-color: red; */
     justify-content: center;
     align-items: center;
 }

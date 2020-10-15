@@ -5,6 +5,18 @@ import web_dev_icon from '../../images/web_dev.svg'
 import mobile_dev_icon from '../../images/mobile_dev.svg'
 import data_mining_icon from '../../images/data_mining.svg'
 import data_visualization_icon from '../../images/data_visualization.svg'
+import python_icon from '../../images/python.svg' //Freepik
+import cplusplus_icon from '../../images/c.svg' //deemakdaksina
+import java_icon from '../../images/java.svg' //Webalys
+import mysql_icon from '../../images/mysql.svg' //Freepik
+import flask_icon from '../../images/flask.PNG'
+import aws_icon from '../../images/aws.PNG'
+import react_icon from '../../images/react.svg' //Freepik
+import react_native_icon from '../../images/react_native.PNG' 
+import agile_icon from '../../images/agile.PNG' 
+import html_icon from '../../images/html-5.svg' //Freepik
+import css_icon from '../../images/css.svg' //Freepik
+import js_icon from '../../images/javascript.svg' //Grphix Dxinerz
 
 class About extends Component{
     render(){
@@ -55,18 +67,18 @@ class About extends Component{
                         <img src={profilePic}/>
                     </div>
                     <div className='technologies-about'>
-                        <div>Python</div>
-                        <div>C++</div>
-                        <div>Java</div>
-                        <div>MySQL</div>
-                        <div>Flask</div>
-                        <div>AWS</div>
-                        <div>React JS</div>
-                        <div>React Native</div>
-                        <div>Agile</div>
-                        <div>HTML</div>
-                        <div>CSS</div>
-                        <div>JavaScript</div>
+                        <div><img src={python_icon}/></div>
+                        <div><img src={cplusplus_icon}/></div>
+                        <div><img src={java_icon}/></div>
+                        <div><img src={mysql_icon}/></div>
+                        <div><img src={react_icon}/></div>
+                        <div><img src={html_icon}/></div>
+                        <div><img src={css_icon}/></div>
+                        <div><img src={js_icon}/></div>
+                        <div><img src={flask_icon} style={{width:'100%', height:"100%", objectFit:'contain'}}/></div>
+                        <div><img src={aws_icon} style={{width:'100%', height:"100%", objectFit:'contain'}}/></div>
+                        <div><img src={react_native_icon} style={{width:'100%', height:"100%", objectFit:'contain'}}/></div>
+                        <div><img src={agile_icon} style={{width:'100%', height:"100%", objectFit:'contain'}}/></div>
                     </div>
                 </div>
                 
