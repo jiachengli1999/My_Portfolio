@@ -2,6 +2,8 @@
     /* display: flex;
     justify-content: center;
     align-items: center; */
+    border: 1px solid black;
+    flex-wrap: wrap;
 }
 
 .title-about{
@@ -65,6 +67,8 @@
 }
 .tech-section > .technologies-about{
     display: flex;
+    /* set min width so items don't overflow past this point  */
+    min-width: 700px; 
     width: 700px;
     height: 500px;
     flex-wrap: wrap;

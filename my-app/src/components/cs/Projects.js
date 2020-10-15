@@ -5,7 +5,7 @@ class Projects extends Component{
     render(){
         return(
             <div className='container-flex-project'>
-                <div className='title-about'>
+                <div className='title-project'>
                     <h1>Projects</h1>
                 </div>
                 <div className='project-container-flex'>

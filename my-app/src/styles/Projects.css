@@ -1,7 +1,14 @@
-.title-about{
+.container-flex-project{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+.title-project{
+
 }
 
 .project-container-flex{
