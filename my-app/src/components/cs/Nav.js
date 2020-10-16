@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import '../../styles/Nav.css'
 import { Link } from "react-scroll";
+import * as Router from 'react-router-dom';
 
 class Nav extends Component{
     constructor(props) {
@@ -24,8 +25,14 @@ class Nav extends Component{
                     </Link>
                 </div>
                 <div className='nav-item2'>
-                    <label>3D Modeling</label>
-                    <label>Activities</label>
+                    <Router.Link to='/modeling'>
+                        3D Modeling 
+                    </Router.Link>
+                    <Router.Link to='/activities'>
+                        Activities
+                    </Router.Link>
+                    {/* <label>3D Modeling</label>
+                    <label>Activities</label> */}
                 </div>
             </div>
         )

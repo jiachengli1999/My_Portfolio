@@ -28,7 +28,7 @@
     align-items: flex-start;
 }
 
-.btns > label{
+.btns > *{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,8 +40,9 @@
     color: white;
     border-color: white;
     font-size: 20px;
+    text-decoration: none;
 }
-.btns > label:hover{
+.btns > *:hover{
     background-color: rgb(0,0,0,0.4)
     /* opacity: 0.2; */
 }

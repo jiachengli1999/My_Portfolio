@@ -41,6 +41,7 @@ label{
     height: 100%;
     width: 100%;
     color: white;
+    text-decoration: none;
 }
 .nav-item1 > *:hover, .nav-item2>*:hover{
     background: white;

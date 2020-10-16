@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import '../../styles/landingPage.css'
 import TextLoop from "react-text-loop";
+import { Link } from "react-scroll";
+import * as Router from 'react-router-dom'
 
 class landingPage extends Component{
     render(){
@@ -16,9 +18,18 @@ class landingPage extends Component{
                         </TextLoop>
                     </h1>
                     <div className='btns'>
-                        <label>Software Profile</label>
-                        <label>3D Modeling Profile</label>
-                        <label>Activities</label>
+                        <Link to="about-page" activeClass='active' spy={true} smooth={true} offset={-30} duration={500}>
+                            Software Profile
+                        </Link>
+                        <Router.Link to='/modeling'>
+                            3D Modeling 
+                        </Router.Link>
+                        <Router.Link to='/activities'>
+                            Activities
+                        </Router.Link>
+                        {/* <label>Software Profile</label> */}
+                        {/* <a >3D Modeling Profile</a >
+                        <label>Activities</label> */}
                     </div>
                 </div>
             </div>
