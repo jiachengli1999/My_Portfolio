@@ -21,7 +21,7 @@ import js_icon from '../../images/javascript.svg' //Grphix Dxinerz
 class About extends Component{
     render(){
         return(
-            <div className='container-flex-about'>
+            <div className='container-flex-about' id='about-page'>
                 <div className='title-about'>
                     <h1>About Me</h1>
                 </div>

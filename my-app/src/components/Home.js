@@ -6,6 +6,8 @@ import About from './cs/About.js'
 import Projects from './cs/Projects.js'
 import Contacts from './Contacts.js'
 import Works from './cs/Works.js'
+import * as Scroll from 'react-scroll';
+
 
 class Home extends Component{
     render(){
@@ -14,26 +16,9 @@ class Home extends Component{
                 <LandingPage />
                 <Nav/> 
                 <About/>
-                <Projects />
+                <Projects/>
                 <Works/>
-                <Contacts />
-                {/* <div className='landing-page'>
-                </div> 
-
-                <div className='nav'>
-                </div>
-
-                <div className='about'>
-                </div>          
-
-                <div className='projects'>
-                </div>     
-
-                <div className='work'>
-                </div> 
-
-                <div className='contacts'>
-                </div>  */}
+                <Contacts/>
             </div>
         )
     }

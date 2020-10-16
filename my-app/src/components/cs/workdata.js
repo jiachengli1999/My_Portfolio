@@ -5,6 +5,7 @@ const workdata = [
         from: '123',
         to: '456',
         description: 'description',
+        id: 'job1',
     },
     {
         job: 'Full Stack Developer Intern',
@@ -12,6 +13,7 @@ const workdata = [
         from: '123',
         to: '456',
         description: 'description',
+        id: 'job2',
     },
     {
         job: 'Data Engineer Intern',
@@ -19,6 +21,7 @@ const workdata = [
         from: '123',
         to: '456',
         description: 'description',
+        id: 'job3',
     },
     {
         job: 'Data Science Intern',
@@ -26,6 +29,7 @@ const workdata = [
         from: '123',
         to: '456',
         description: 'description',
+        id: 'job4',
     }
 ]
 

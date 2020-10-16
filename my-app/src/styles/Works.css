@@ -3,9 +3,10 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
     flex-wrap: wrap;
     overflow: hidden;
+    background: linear-gradient(#FFEEEE, #DDEFBB);
 }
 
 .title-works{
@@ -76,10 +77,16 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 1px solid black;
+    border: 3px solid black;
     border-radius: 50%;
     padding: 100px 0 100px 0px;
     flex-wrap: wrap;
 }
-
-
+/* 
+#job1{
+    background: linear-gradient(#00b09b, #96c93d);
+}
+#job2{
+    background: linear-gradient(#c1c3c5, #2c3e50);
+}
+ */

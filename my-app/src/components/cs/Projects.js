@@ -13,7 +13,7 @@ import web_dev from '../../images/web_dev.PNG'
 class Projects extends Component{
     render(){
         return(
-            <div className='container-flex-project'>
+            <div className='container-flex-project' id='projects-page'>
                 <div className='title-project'>
                     <h1>Projects</h1>
                 </div>
