@@ -46,3 +46,7 @@ label{
     background: white;
     color: black;
 }
+.nav-item1 > .active, .nav-item2 > .active{
+    background-color: #dddddd;
+    color: black;
+}
