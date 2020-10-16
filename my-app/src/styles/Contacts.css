@@ -1,5 +1,6 @@
 .container-flex-contacts{
     background-color: #333333;
+    overflow: hidden;
 }
 .title-contacts{
     display: flex;

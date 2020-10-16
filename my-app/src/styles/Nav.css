@@ -9,6 +9,9 @@ label{
     align-items: center;
     background-color: #333;
     height: 50px;
+    position: sticky; 
+    top: 0;
+    z-index: 1;
 }
 
 .container-flex-nav > div{

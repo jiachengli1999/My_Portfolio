@@ -4,8 +4,8 @@
     align-items: center; */
     /* border: 1px solid black; */
     flex-wrap: wrap;
+    overflow: hidden;
 }
-
 .title-about{
     display: flex;
     justify-content: center;
@@ -81,4 +81,5 @@
     /* background-color: red; */
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
