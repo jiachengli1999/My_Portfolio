@@ -1,0 +1,81 @@
+.container-flex-works{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.title-works{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timeline-container{
+    display: flex;
+    position: relative;
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 900px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* border: 1px solid black; */
+}
+.timeline-container::after{
+    position: absolute;
+    height: 100%;
+    width: 4px;
+    left: calc(50% - 2px);
+    background-color: black;
+    content: '';
+}
+
+.timeline-item{
+    position: relative;
+    display: flex;
+    align-self: flex-start;
+    width: 50%;
+    flex-direction: column;
+    /* background-color: pink; */
+}
+.timeline-item:nth-child(odd){
+    display: flex;
+    align-self: flex-end;  
+}
+.timeline-item > *{
+    display: flex;
+    justify-content: flex-end;
+    max-width: 70%;
+    /* background-color: aqua; */
+}
+.timeline-item:nth-child(odd) > *{
+    margin-left: 30%;  
+    display: flex;
+    justify-content: flex-start;
+}
+.timeline-item::after{
+    content: '';
+    background-color: black;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    transform: rotate(45deg);
+    right: -7.5px;
+    top: calc(50% - 7.5px);
+}
+.timeline-item:nth-child(odd)::after{
+    left: -7.5px;
+}
+
+.timeline-item-context{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 100px 0 100px 0px;
+}
+
+
