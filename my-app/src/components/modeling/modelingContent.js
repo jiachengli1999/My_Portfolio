@@ -7,7 +7,7 @@ import '../../styles/modeling/content.css'
 class modelingContent extends Component{
     render(){
         return(
-            <div className='container-flex'>
+            <div className='container-flex' id='room-page'>
                 <div className='title-flex'>
                     <h1>The Room</h1>
                 </div>
