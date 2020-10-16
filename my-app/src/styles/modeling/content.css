@@ -1,0 +1,39 @@
+.container-flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+.content-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-width: 50%;
+    background-color: #333333;
+}
+.title-flex{
+    padding: 70px;
+}
+.title-flex > h1{
+    /* color: white; */
+    font-size: 80px;
+}
+
+.content-flex > img{
+    overflow: hidden;
+    width: 50%;
+    min-width: 500px;
+    height: auto;
+    /* margin-left: 10%; */
+    margin-top: 5%;
+    /* height: 200px; */
+}
+.content-flex > h2{
+    /* margin-right: 20%; */
+    margin: 5%;
+    font-size: 200%;
+    color: white;
+}

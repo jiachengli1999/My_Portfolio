@@ -1,15 +1,15 @@
 import React, { Component } from 'react'
-import '../../styles/Nav.css'
-import { Link } from "react-scroll";
+import LandingPage from './modelingLanding.js'
+import Nav from './modelingNav.js'
+import Content from './modelingContent.js'
 
 class modelingP1 extends Component{
-    constructor(props) {
-        super(props);
-    }
     render(){
         return(
             <div className='container-flex-modelingP1'>
-                modeling
+                <LandingPage />
+                <Nav />
+                <Content />
             </div>
         )
     }
