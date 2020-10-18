@@ -1,0 +1,42 @@
+.box-container{
+    position: inline-block;
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    margin: 50px;
+}
+
+.box-container > *{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    transition: transform 1s;
+}
+
+.front{
+    position: relative;
+}
+
+.back{
+    position: absolute;
+    background: white;
+}
+.box-container:hover > .front{
+    transform: translateX(-200px);
+}
+.box-container:hover > .back{
+    transform: translateX(100px);
+}
+
+.back-content{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 250px;
+    height: 350px;
+    margin-left: 90px;
+    flex-direction: column;
+    /* border: 1px solid black; */
+}

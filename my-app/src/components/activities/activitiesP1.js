@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import '../../styles/Nav.css'
-import { Link } from "react-scroll";
-
+import '../../styles/activities/activities.css'
+import Box from './box.js'
+import data from './data'
 class activitiesP1 extends Component{
     constructor(props) {
         super(props);
@@ -9,7 +9,13 @@ class activitiesP1 extends Component{
     render(){
         return(
             <div className='container-flex-activitiesP1'>
-                activities
+                {
+                    data.map((obj, index)=>(
+                        <Box data={obj} 
+                            key={index}
+                        />
+                    ))
+                }
             </div>
         )
     }
