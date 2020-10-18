@@ -8,7 +8,7 @@ class modelingP1 extends Component{
     render(){
         return(
             <div className='container-flex-modelingP1'>
-                <LandingPage />
+                {/* <LandingPage /> */}
                 <Nav />
                 <Content />
                 <Contact/>

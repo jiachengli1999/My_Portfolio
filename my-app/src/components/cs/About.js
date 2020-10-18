@@ -48,7 +48,7 @@ class About extends Component{
                         <img src={data_mining_icon}/>
                         <h2>Data Mining/Cleaning</h2>
                         <p>
-                            Web scrape data from the web and organizing them using
+                            Web scrape data from the web and organize them using
                             Python libraries
                         </p>
                     </div>
