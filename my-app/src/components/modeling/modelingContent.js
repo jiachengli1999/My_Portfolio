@@ -13,13 +13,10 @@ class modelingContent extends Component{
                     params={{ 
                         particles: { 
                             number: { 
-                                value: 50,
+                                value: 60,
                             },
                             lineLinked: {
                                 enable: true,
-                            },
-                            size:{
-                                random: true,
                             },
                         },
                     }} 

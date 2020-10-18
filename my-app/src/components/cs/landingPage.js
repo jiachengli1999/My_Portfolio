@@ -19,6 +19,7 @@ class landingPage extends Component{
                                 enable: false,
                             },
                             size:{
+                                value: 5,
                                 random: true,
                             },
                             move:{
