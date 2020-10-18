@@ -3,11 +3,28 @@ import persp1 from '../../images/Room_persp1.PNG'
 import persp2 from '../../images/Room_persp2.PNG'
 import persp3 from '../../images/Room_persp3.jpg'
 import '../../styles/modeling/content.css'
+import Particles from 'react-particles-js'
 
 class modelingContent extends Component{
     render(){
         return(
             <div className='container-flex' id='room-page'>
+                <Particles 
+                    params={{ 
+                        particles: { 
+                            number: { 
+                                value: 50,
+                            },
+                            lineLinked: {
+                                enable: true,
+                            },
+                            size:{
+                                random: true,
+                            },
+                        },
+                    }} 
+                    className='particles-modeling' 
+                /> 
                 <div className='title-flex'>
                     <h1>The Room</h1>
                 </div>
