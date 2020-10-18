@@ -1,9 +1,9 @@
-.container-flex-activitiesP1{
+.boxes{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background-color: #333333;
-    min-height: 100vh;
     flex-direction: column;
+    min-height: 100vh;
+    background-color: white;
 }

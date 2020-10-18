@@ -21,7 +21,7 @@
     align-items: center;
     flex-wrap: wrap;
     min-width: 50%;
-    background-color: #333333;
+    background-color: #1b1f1f;
 }
 .content-flex > img{
     overflow: hidden;
