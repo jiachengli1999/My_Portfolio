@@ -25,6 +25,9 @@ class Nav extends Component{
                     </Link>
                 </div>
                 <div className='nav-item2'>
+                    <Router.Link to='/'>
+                        Home 
+                    </Router.Link>
                     <Router.Link to='/modeling'>
                         3D Modeling 
                     </Router.Link>

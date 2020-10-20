@@ -52,7 +52,6 @@
     justify-content: flex-end;
     max-width: 70%;
     flex-wrap: wrap;
-    /* background-color: aqua; */
 }
 .timeline-item:nth-child(odd) > *{
     margin-left: 30%;  
@@ -80,8 +79,18 @@
     flex-direction: column;
     border: 3px solid black;
     border-radius: 50%;
-    padding: 100px 0 100px 0px;
+    padding: 80px 0px 100px 0px;
     flex-wrap: wrap;
+    /* background-color: white; */
+}
+.timeline-item-context > *{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    /* border: 1px solid black; */
+    text-align: center;
+    /* padding-left: 10px; */
 }
 /* 
 #job1{

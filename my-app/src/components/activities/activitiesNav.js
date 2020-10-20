@@ -16,10 +16,13 @@ class activitiesNav extends Component{
                 </div>
                 <div className='nav-item2'>
                     <Router.Link to='/'>
-                        Software Profile
+                        Home
                     </Router.Link>
                     <Router.Link to='/modeling'>
                         3D Modeling
+                    </Router.Link>
+                    <Router.Link to='/activities'>
+                        Activities
                     </Router.Link>
                     {/* <label>3D Modeling</label>
                     <label>Activities</label> */}

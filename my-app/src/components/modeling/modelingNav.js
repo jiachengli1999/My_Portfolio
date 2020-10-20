@@ -16,7 +16,10 @@ class modelingNav extends Component{
                 </div>
                 <div className='nav-item2'>
                     <Router.Link to='/'>
-                        Software Profile
+                        Home
+                    </Router.Link>
+                    <Router.Link to='/modeling'>
+                        3D Modeling 
                     </Router.Link>
                     <Router.Link to='/activities'>
                         Activities
