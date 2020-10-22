@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4f34fcd17147eeae9973e16764f3041a",
+    "revision": "b6b74ac56220b4bdb499c20638f0acb6",
     "url": "/My_Portfolio/index.html"
   },
   {
-    "revision": "0e1df0ff69ab2f709fad",
-    "url": "/My_Portfolio/static/css/main.376b1875.chunk.css"
+    "revision": "4d4800649701be3e84d9",
+    "url": "/My_Portfolio/static/css/main.bc4c4187.chunk.css"
   },
   {
-    "revision": "1fded0c989674919beee",
-    "url": "/My_Portfolio/static/js/2.9b2ebc56.chunk.js"
+    "revision": "5704c70014eafedaf475",
+    "url": "/My_Portfolio/static/js/2.cc09268e.chunk.js"
   },
   {
     "revision": "c87550333da8df8ab4c80bd1d6e9defb",
-    "url": "/My_Portfolio/static/js/2.9b2ebc56.chunk.js.LICENSE.txt"
+    "url": "/My_Portfolio/static/js/2.cc09268e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0e1df0ff69ab2f709fad",
-    "url": "/My_Portfolio/static/js/main.8c7d634c.chunk.js"
+    "revision": "4d4800649701be3e84d9",
+    "url": "/My_Portfolio/static/js/main.a978d7ae.chunk.js"
   },
   {
     "revision": "7b1bdbeac2c7433307b0",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/My_Portfolio/static/media/american_breast.1cfe63f9.PNG"
   },
   {
-    "revision": "6d4eb8eb18b522a7f3d9e76927fb82fa",
-    "url": "/My_Portfolio/static/media/aws.6d4eb8eb.PNG"
+    "revision": "3e1fb393ea366b15c6b0826d66436073",
+    "url": "/My_Portfolio/static/media/aws.3e1fb393.PNG"
   },
   {
     "revision": "90e7c04dbadfacc3904d0793bc500068",
@@ -76,8 +76,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/My_Portfolio/static/media/finstagram.0da34661.PNG"
   },
   {
-    "revision": "685898b5be3988995aa5f89e1b3f7a3b",
-    "url": "/My_Portfolio/static/media/flask.685898b5.PNG"
+    "revision": "8f592089f31be914ba5d9482b77de4d7",
+    "url": "/My_Portfolio/static/media/flask.8f592089.PNG"
   },
   {
     "revision": "1f33e75d7b7df995b1609f8573ac8c9b",
@@ -128,8 +128,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/My_Portfolio/static/media/react.eab76719.svg"
   },
   {
-    "revision": "3907624f04bbf49e097bbb297cdeb0c9",
-    "url": "/My_Portfolio/static/media/react_native.3907624f.PNG"
+    "revision": "aa303264633c4fbf573efcef9eaabbf5",
+    "url": "/My_Portfolio/static/media/react_native.aa303264.PNG"
   },
   {
     "revision": "8e17e9ca724bb9131ee59d2fdfece111",
