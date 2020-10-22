@@ -7,7 +7,7 @@
     padding-bottom: 50px;
     flex-wrap: wrap;
     overflow: hidden;
-    background: linear-gradient(#FFEEEE, #DDEFBB);
+    /* background: linear-gradient(#FFEEEE, #DDEFBB); */
 }
 
 .title-works{
@@ -19,9 +19,9 @@
 .timeline-container{
     display: flex;
     position: relative;
-    /* justify-content: center; */
-    /* align-items: center; */
-    width: 900px;
+    /* justify-content: center;
+    align-items: center; */
+    width: 80%;
     flex-wrap: wrap;
     flex-direction: column;
     /* border: 1px solid black; */
@@ -38,8 +38,9 @@
 .timeline-item{
     position: relative;
     display: flex;
-    align-self: flex-start;
+    /* align-self: center; */
     width: 50%;
+    /* width: 100%; */
     flex-direction: column;
     /* background-color: pink; */
 }
@@ -49,14 +50,17 @@
 }
 .timeline-item > *{
     display: flex;
-    justify-content: flex-end;
-    max-width: 70%;
+    align-items: center;
+    /* max-width: 70%; */
+    padding: 10px;
+    margin-left: 25%; 
     flex-wrap: wrap;
+    /* background-color: gray; */
 }
 .timeline-item:nth-child(odd) > *{
-    margin-left: 30%;  
+    margin-left: 25%;  
     display: flex;
-    justify-content: flex-start;
+    /* align-items: flex-start; */
 }
 .timeline-item::after{
     content: '';
@@ -77,11 +81,15 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 3px solid black;
-    border-radius: 50%;
-    padding: 80px 0px 100px 0px;
+    /* border: 3px solid black; */
+    border-radius: 20px;
+    /* padding: 10px 0; */
+    width: 50%;
+    /* padding: 80px 0px 100px 0px; */
+    /* padding: 10px; */
     flex-wrap: wrap;
     /* background-color: white; */
+    color: white;
 }
 .timeline-item-context > *{
     display: flex;
@@ -92,11 +100,19 @@
     text-align: center;
     /* padding-left: 10px; */
 }
-/* 
+
 #job1{
-    background: linear-gradient(#00b09b, #96c93d);
+    background: #12232E;
 }
 #job2{
-    background: linear-gradient(#c1c3c5, #2c3e50);
+    background: #FFDF6C;
+    color: black;
 }
- */
+#job3{
+    background: #9DC88D;
+    color: black;
+}
+#job4{
+    background: #203647;
+}
+
