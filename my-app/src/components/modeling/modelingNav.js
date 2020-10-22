@@ -9,9 +9,12 @@ class modelingNav extends Component{
     render(){
         return(
             <div className='container-flex-nav'>
-                <div className='nav-item1'>
+                <div className='nav-item1 modeling-nav'>
                     <Link to="room-page" activeClass='active' spy={true} smooth={true} offset={-30} duration={500}>
                         The Room 
+                    </Link>
+                    <Link to="contacts-page" activeClass='active' spy={true} smooth={true} offset={-30} duration={500}>
+                        Contacts 
                     </Link>
                 </div>
                 <div className='nav-item2'>

@@ -5,6 +5,7 @@ import Box from './box.js'
 import data from './data'
 import Nav from './activitiesNav.js'
 import Contact from '../Contacts.js'
+import Fade from 'react-reveal/Fade';
 
 class activitiesP1 extends Component{
     constructor(props) {
@@ -18,9 +19,9 @@ class activitiesP1 extends Component{
                 <div className='boxes'>  
                 {
                     data.map((obj, index)=>(
-                        <Box data={obj} 
-                            key={index}
-                        />
+                        <Fade>
+                            <Box data={obj} key={index}/>
+                        </Fade>
                     ))
                 }
                 </div>

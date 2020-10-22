@@ -17,15 +17,19 @@ import agile_icon from '../../images/agile.PNG'
 import html_icon from '../../images/html-5.svg' //Freepik
 import css_icon from '../../images/css.svg' //Freepik
 import js_icon from '../../images/javascript.svg' //Grphix Dxinerz
+import Fade from 'react-reveal/Fade';
 
 class About extends Component{
     render(){
         return(
             <div className='container-flex-about' id='about-page'>
                 <div className='title-about'>
-                    <h1>About Me</h1>
+                    <Fade top>
+                        <h1>About Me</h1>
+                    </Fade>   
                 </div>
                 <div className='skills-about'>
+                    <Fade top>
                     <div className='webdev-about skill'>
                         {/* Icon made by Pixel perfect from flaticon.com  */}
                         <img src={web_dev_icon}/>
@@ -61,7 +65,9 @@ class About extends Component{
                             and React JS
                         </p>
                     </div>
+                    </Fade>
                 </div>
+                <Fade bottom>
                 <div className='tech-section'>
                     <div className='picture-about'>
                         <img src={profilePic}/>
@@ -83,7 +89,7 @@ class About extends Component{
                         <img src={agile_icon} class='img-icons'/>
                     </div>
                 </div>
-                
+                </Fade>
             </div>
         )
     }

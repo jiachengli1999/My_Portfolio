@@ -55,13 +55,18 @@ label{
     /* text-decoration: underline; */
     color: black;
 }
+
+.modeling-nav > *{
+    width: 50%;
+}
+
 @media (max-width: 800px){
-    .nav-item1, .nav-item2{
+    .nav-item1, .nav-item2, .modeling-nav{
         width: 100%;
     }
 }
 @media (max-width: 600px){
-    .nav-item1 > *, .nav-item2 > *{
+    .nav-item1 > *, .nav-item2 > *, .modeling-nav > *{
         width: 100%;
     }
 }
