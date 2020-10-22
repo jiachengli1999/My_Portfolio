@@ -77,10 +77,10 @@ class About extends Component{
                         <img src={html_icon}/>
                         <img src={css_icon}/>
                         <img src={js_icon}/>
-                        <img src={flask_icon} style={{objectFit:'contain', borderRadius:'50%'}}/>
-                        <img src={aws_icon} style={{objectFit:'contain', borderRadius:'50%'}}/>
-                        <img src={react_native_icon} style={{objectFit:'contain', borderRadius:'50%'}}/>
-                        <img src={agile_icon} style={{objectFit:'contain', borderRadius:'50%'}}/>
+                        <img src={flask_icon} class='img-icons' style={{border:'1px solid black'}}/>
+                        <img src={aws_icon} class='img-icons'/>
+                        <img src={react_native_icon} class='img-icons'/>
+                        <img src={agile_icon} class='img-icons'/>
                     </div>
                 </div>
                 

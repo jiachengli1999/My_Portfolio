@@ -113,6 +113,14 @@
     padding: 0 10px;
     width: 25%;
 }
+.technologies-about > .img-icons{
+    object-fit: cover;
+    display: inline-block;
+    height: auto;
+    vertical-align: middle;
+    border-radius: 50%;
+    /* line-height: 0; */
+}
 @media (max-width: 750px) {
     .picture-about, .technologies-about {
       flex: 50%;
