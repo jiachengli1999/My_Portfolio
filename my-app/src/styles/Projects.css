@@ -22,17 +22,27 @@
     justify-content: center;
     margin-bottom: 100px;
 }
-.project-container-flex > div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 400px;
-    height: 300px;
-    /* border: 1px solid black; */
-}
 .project-container{
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    margin: 10px;
+    border: 1px solid black;
 }
+@media (max-width: 1000px) {
+    .project-container {
+      width: 40%;
+    }
+}
+@media (max-width: 600px) {
+    .project-container {
+      width: 100%;
+    }
+}
+
 .project-container > .imgwrap{
     position: relative;
     opacity: 1;
