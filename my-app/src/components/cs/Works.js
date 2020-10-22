@@ -16,7 +16,7 @@ class Works extends Component{
                                 <h3>{data.job}</h3>
                                 <div>{data.company}</div>
                                 <div>{data.from} - {data.to}</div>
-                                <div>{data.description}</div>
+                                {/* <div>{data.description}</div> */}
                             </div>
                         </div>
                     ))}

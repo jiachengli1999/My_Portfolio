@@ -26,7 +26,7 @@ class About extends Component{
                     <h1>About Me</h1>
                 </div>
                 <div className='skills-about'>
-                    <div className='webdev-about'>
+                    <div className='webdev-about skill'>
                         {/* Icon made by Pixel perfect from flaticon.com  */}
                         <img src={web_dev_icon}/>
                         <h2>Web Development</h2>
@@ -34,7 +34,7 @@ class About extends Component{
                             Full Stack Development, Responsive Design, Web Hosting 
                         </p>
                     </div>
-                    <div className='mobiledev-about'>
+                    <div className='mobiledev-about skill'>
                         {/* Icon made by prettycons from flaticon.com  */}
                         <img src={mobile_dev_icon}/>
                         <h2>Mobile Development</h2>
@@ -43,7 +43,7 @@ class About extends Component{
                             Experience with React Native and AWS
                         </p>
                     </div>
-                    <div className='webscraping-about'>
+                    <div className='webscraping-about skill'>
                         {/* Icon made by Flat icons from flaticon.com  */}
                         <img src={data_mining_icon}/>
                         <h2>Data Mining/Cleaning</h2>
@@ -52,7 +52,7 @@ class About extends Component{
                             Python libraries
                         </p>
                     </div>
-                    <div className='datacleaning-about'>
+                    <div className='datacleaning-about skill'>
                         {/* Icon made by Flat icons from flaticon.com  */}
                         <img src={data_visualization_icon}/>
                         <h2>Data Visualization</h2>
@@ -65,20 +65,22 @@ class About extends Component{
                 <div className='tech-section'>
                     <div className='picture-about'>
                         <img src={profilePic}/>
+                        <h2>New York University</h2>
+                        <h3>Computer Science BS, Minor in Math</h3>
                     </div>
                     <div className='technologies-about'>
-                        <div><img src={python_icon}/></div>
-                        <div><img src={cplusplus_icon}/></div>
-                        <div><img src={java_icon}/></div>
-                        <div><img src={mysql_icon}/></div>
-                        <div><img src={react_icon}/></div>
-                        <div><img src={html_icon}/></div>
-                        <div><img src={css_icon}/></div>
-                        <div><img src={js_icon}/></div>
-                        <div><img src={flask_icon} style={{width:'100%', height:"100%", objectFit:'contain'}}/></div>
-                        <div><img src={aws_icon} style={{width:'100%', height:"100%", objectFit:'contain'}}/></div>
-                        <div><img src={react_native_icon} style={{width:'100%', height:"100%", objectFit:'contain'}}/></div>
-                        <div><img src={agile_icon} style={{width:'100%', height:"100%", objectFit:'contain'}}/></div>
+                        <img src={python_icon}/>
+                        <img src={cplusplus_icon}/>
+                        <img src={java_icon}/>
+                        <img src={mysql_icon}/>
+                        <img src={react_icon}/>
+                        <img src={html_icon}/>
+                        <img src={css_icon}/>
+                        <img src={js_icon}/>
+                        <img src={flask_icon} style={{objectFit:'contain', borderRadius:'50%'}}/>
+                        <img src={aws_icon} style={{objectFit:'contain', borderRadius:'50%'}}/>
+                        <img src={react_native_icon} style={{objectFit:'contain', borderRadius:'50%'}}/>
+                        <img src={agile_icon} style={{objectFit:'contain', borderRadius:'50%'}}/>
                     </div>
                 </div>
                 

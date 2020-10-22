@@ -1,10 +1,6 @@
 .container-flex-about{
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    /* border: 1px solid black; */
     flex-wrap: wrap;
-    overflow: hidden;
+    padding-bottom: 50px;
 }
 .title-about{
     display: flex;
@@ -36,7 +32,6 @@
 .skills-about > div > p{
     display: flex;
     width: 70%;
-
     justify-content: flex-start;
     align-items: center;
 }
@@ -50,6 +45,40 @@
     width: 100px;
 }
 
+/* .tech-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.picture-about{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+}
+.picture-about > img{
+    display: flex;
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
+.tech-section > .technologies-about{
+    display: flex;
+    min-width: 700px; 
+    width: 700px;
+    height: 500px;
+    flex-wrap: wrap;
+}
+.technologies-about > *{
+    display: flex;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+
 .tech-section{
     display: flex;
     justify-content: center;
@@ -57,29 +86,42 @@
     flex-wrap: wrap;
 }
 .picture-about{
-    width: 500px;
-    height: 500px;
+    flex: 30%;
+    max-width: 30%;
+}
+.technologies-about{
+    /* justify-content: center; */
+    flex: 50%;
+    max-width: 50%;
 }
 .picture-about > img{
-    width: 500px;
-    height: 500px;
+    box-sizing: border-box;
+    padding: 0 10px;
+    width: 100%;
+    border-radius: 30%;
     object-fit: cover;
 }
-.tech-section > .technologies-about{
+.picture-about > h2, .picture-about > h3{
+    box-sizing: border-box;
     display: flex;
-    /* set min width so items don't overflow past this point  */
-    min-width: 700px; 
-    width: 700px;
-    height: 500px;
-    flex-wrap: wrap;
-    /* background: black; */
-}
-.technologies-about > *{
-    display: flex;
-    width: calc(700/4 * 1px);
-    height: calc(500/3 * 1px);
-    /* background-color: red; */
     justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    width: 100%;
+}
+
+.technologies-about > img{
+    box-sizing: border-box;
+    padding: 0 10px;
+    width: 25%;
+}
+@media (max-width: 750px) {
+    .picture-about, .technologies-about {
+      flex: 50%;
+      max-width: 50%;
+    }
+}
+@media (max-width: 600px) {
+    .picture-about, .technologies-about{
+      flex: 100%;
+      max-width: 100%;
+    }
 }

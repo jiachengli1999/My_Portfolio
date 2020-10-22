@@ -12,7 +12,7 @@ const workdata = [
         company: 'Markable AI',
         from: '09/2019',
         to: '12/2019',
-        description: 'Cleaned, processed, and visualized data',
+        // description: 'Cleaned, processed, and visualized data',
         id: 'job2',
     },
     {
@@ -20,7 +20,7 @@ const workdata = [
         company: 'Responsify',
         from: '06/2019',
         to: '08/2019',
-        description: 'Scraped data from websites to calculate SEO scores',
+        // description: 'Scraped data from websites to calculate SEO scores',
         id: 'job3',
     },
     {
@@ -28,7 +28,7 @@ const workdata = [
         company: 'iQ4',
         from: '06/2018',
         to: '08/2018',
-        description: 'Researched on best practices against insider threats',
+        // description: 'Researched on best practices against insider threats',
         id: 'job4',
     }
 ]
