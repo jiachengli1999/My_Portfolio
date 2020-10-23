@@ -28,7 +28,7 @@ class modelingContent extends Component{
                     <h1>The Room</h1>
                     <p>Modeled a detective room. The desk to the 
                         left represents an older detective workspace, 
-                        whilte the one on the right represents a 
+                        while the one on the right represents a 
                         workspace that is more modern.
                     </p>
                 </div>
