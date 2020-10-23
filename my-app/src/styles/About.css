@@ -121,13 +121,13 @@
     border-radius: 50%;
     /* line-height: 0; */
 }
-@media (max-width: 750px) {
+@media (max-width: 768px) {
     .picture-about, .technologies-about {
       flex: 50%;
       max-width: 50%;
     }
 }
-@media (max-width: 600px) {
+@media (max-width: 420px) {
     .picture-about, .technologies-about{
       flex: 100%;
       max-width: 100%;

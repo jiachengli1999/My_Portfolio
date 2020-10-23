@@ -33,11 +33,11 @@ class landingPage extends Component{
 
                 <div className='title'>
                     <h1>
-                        Hi, I'm Jia Cheng Li. <br/>
+                        Hi, I'm Jia Cheng Li. I'm familar with <nbr/>
                         <TextLoop>
-                            <div>I'm a Software Engineer.</div>
-                            <div>I'm a Data Scientist/Engineer.</div>
-                            <div>I like to explore new tech.</div>
+                            <div>Software Engineering.</div>
+                            <div>Data Engineering.</div>
+                            <div>3D Modeling.</div>
                         </TextLoop>
                     </h1>
                     <div className='btns'>

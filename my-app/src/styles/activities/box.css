@@ -42,3 +42,26 @@
     flex-direction: column;
     /* border: 1px solid black; */
 }
+
+@media (max-width: 500px){
+    .box-container{
+        margin-bottom: 0;
+        width: 250px;
+        height: 250px;
+
+    }
+    .box-container > *{
+        width: 250px;
+        height: 250px;
+    }
+    .back-content{
+        width: 90%;
+        margin-left: -20px;
+    }
+    .back-content > h3{
+        font-size: 15px;
+    }
+    .back-content > h2{
+        font-size: 20px;
+    }
+}

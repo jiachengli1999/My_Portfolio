@@ -26,10 +26,10 @@ class modelingContent extends Component{
                 <Fade top>
                 <div className='title-flex'>
                     <h1>The Room</h1>
-                    <p>Modeled a detective room. The desk to the <br></br>
-                        left represents an older detective workspace, <br></br>
-                        whilte the one on the right represents a <br></br>
-                        workspace that is more modern.<br></br>
+                    <p>Modeled a detective room. The desk to the 
+                        left represents an older detective workspace, 
+                        whilte the one on the right represents a 
+                        workspace that is more modern.
                     </p>
                 </div>
                 </Fade>
