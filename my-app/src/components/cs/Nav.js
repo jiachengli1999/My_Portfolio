@@ -9,7 +9,7 @@ class Nav extends Component{
     }
     render(){
         return(
-            <div className='container-flex-nav'>
+            <nav className='container-flex-nav'>
                 <div className='nav-item1'>
                     <Link to="about-page" activeClass='active' spy={true} smooth={true} offset={-100} duration={500}>
                         About Me
@@ -37,7 +37,7 @@ class Nav extends Component{
                     {/* <label>3D Modeling</label>
                     <label>Activities</label> */}
                 </div>
-            </div>
+            </nav>
         )
     }
 }

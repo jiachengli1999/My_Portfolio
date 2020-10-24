@@ -9,7 +9,7 @@ import Fade from 'react-reveal/Fade';
 class modelingContent extends Component{
     render(){
         return(
-            <div className='container-flex' id='room-page'>
+            <section className='container-flex' id='room-page'>
                 <Particles 
                     params={{ 
                         particles: { 
@@ -51,7 +51,7 @@ class modelingContent extends Component{
                     <h2>Perspective 3</h2>
                 </div>
                 </Fade>
-            </div>
+            </section>
         )
     }
 }

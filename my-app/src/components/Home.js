@@ -12,14 +12,14 @@ import * as Scroll from 'react-scroll';
 class Home extends Component{
     render(){
         return(
-            <div className='container'>
+            <section className='container'>
                 <LandingPage />
                 <Nav/> 
                 <About/>
                 <Projects/>
                 <Works/>
                 <Contacts/>
-            </div>
+            </section>
         )
     }
 }

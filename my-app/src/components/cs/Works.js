@@ -6,11 +6,11 @@ import Fade from 'react-reveal/Fade';
 class Works extends Component{
     render(){
         return(
-            <div className='container-flex-works' id='works-page'>
-                <div className='title-works'>
+            <section className='container-flex-works' id='works-page'>
+                <section className='title-works'>
                     <h1>Work Experience</h1>
-                </div>
-                <div className='timeline-container'>
+                </section>
+                <section className='timeline-container'>
                     {workdata.map((data, index) =>(
                         <div className='timeline-item' key={index}>
                             <Fade>
@@ -23,8 +23,8 @@ class Works extends Component{
                             </Fade>
                         </div>
                     ))}
-                </div>
-            </div>
+                </section>
+            </section>
         )
     }
 }

@@ -8,7 +8,7 @@ import Particles from 'react-particles-js'
 class landingPage extends Component{
     render(){
         return(
-            <div className='container-flex2 landing-page'>
+            <section className='container-flex2 landing-page'>
                 <Particles 
                     params={{ 
                         particles: { 
@@ -31,7 +31,7 @@ class landingPage extends Component{
                     className='particles' 
                 /> 
 
-                <div className='title'>
+                <section className='title'>
                     <h1>
                         Hi, I'm Jia Cheng Li. I'm familar with <nbr/>
                         <TextLoop>
@@ -51,8 +51,8 @@ class landingPage extends Component{
                             Activities
                         </Router.Link>
                     </div>
-                </div>
-            </div>
+                </section>
+            </section>
         )
     }
 }

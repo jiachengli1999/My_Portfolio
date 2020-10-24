@@ -8,7 +8,7 @@ import linkedin_logo from '../images/linkedin_logo.svg'
 class Contacts extends Component{
     render(){
         return(
-            <div className='container-flex-contacts' id='contacts-page'>
+            <section className='container-flex-contacts' id='contacts-page'>
                 <div className='title-contacts'>
                     <h1>Contacts</h1>
                 </div>
@@ -25,7 +25,7 @@ class Contacts extends Component{
                         </a>
                     </div>
                 </div>
-            </div>
+            </section>
         )
     }
 }

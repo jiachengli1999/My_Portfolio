@@ -2,13 +2,14 @@ import React, { Component } from 'react'
 import { Link } from "react-scroll";
 import * as Router from 'react-router-dom';
 
+
 class modelingNav extends Component{
     constructor(props) {
         super(props);
     }
     render(){
         return(
-            <div className='container-flex-nav'>
+            <nav className='container-flex-nav'>
                 <div className='nav-item1 modeling-nav'>
                     <Link to="room-page" activeClass='active' spy={true} smooth={true} offset={-30} duration={500}>
                         The Room 
@@ -30,7 +31,7 @@ class modelingNav extends Component{
                     {/* <label>3D Modeling</label>
                     <label>Activities</label> */}
                 </div>
-            </div>
+            </nav>
         )
     }
 }

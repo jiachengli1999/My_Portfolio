@@ -22,7 +22,7 @@ import Fade from 'react-reveal/Fade';
 class About extends Component{
     render(){
         return(
-            <div className='container-flex-about' id='about-page'>
+            <section className='container-flex-about' id='about-page'>
                 <div className='title-about'>
                     <Fade top>
                         <h1>About Me</h1>
@@ -83,14 +83,14 @@ class About extends Component{
                         <img src={html_icon}/>
                         <img src={css_icon}/>
                         <img src={js_icon}/>
-                        <img src={flask_icon} class='img-icons' style={{border:'1px solid black'}}/>
-                        <img src={aws_icon} class='img-icons'/>
-                        <img src={react_native_icon} class='img-icons'/>
-                        <img src={agile_icon} class='img-icons'/>
+                        <img src={flask_icon} className='img-icons' style={{border:'1px solid black'}}/>
+                        <img src={aws_icon} className='img-icons'/>
+                        <img src={react_native_icon} className='img-icons'/>
+                        <img src={agile_icon} className='img-icons'/>
                     </div>
                 </div>
                 </Fade>
-            </div>
+            </section>
         )
     }
 }

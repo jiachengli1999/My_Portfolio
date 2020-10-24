@@ -3,7 +3,7 @@ import '../../styles/activities/box.css'
 
 const Box = (props) =>{
     return(
-        <div className='box-container'>
+        <section className='box-container'>
             <div className='back'>
                 <div className='back-content'>
                     <h2>
@@ -15,7 +15,7 @@ const Box = (props) =>{
                 </div>
             </div>
             <img src={props.data.imgurl} className='front'/>
-        </div>
+        </section>
     )
 }
 

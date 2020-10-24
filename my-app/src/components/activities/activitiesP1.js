@@ -8,13 +8,9 @@ import Contact from '../Contacts.js'
 import Fade from 'react-reveal/Fade';
 
 class activitiesP1 extends Component{
-    constructor(props) {
-        super(props);
-    }
-
     render(){
         return(
-            <div className='container-flex-activitiesP1'>
+            <main className='container-flex-activitiesP1'>
                 <Nav />
                 <div className='boxes'>  
                 {
@@ -26,7 +22,7 @@ class activitiesP1 extends Component{
                 }
                 </div>
                 <Contact/>
-            </div>
+            </main>
         )
     }
 }

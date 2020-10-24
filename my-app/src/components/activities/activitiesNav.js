@@ -8,7 +8,7 @@ class activitiesNav extends Component{
     }
     render(){
         return(
-            <div className='container-flex-nav'>
+            <nav className='container-flex-nav'>
                 <div className='nav-item1'>
                     {/* <Link to="room-page" activeClass='active' spy={true} smooth={true} offset={-30} duration={500}>
                         The Room 
@@ -27,7 +27,7 @@ class activitiesNav extends Component{
                     {/* <label>3D Modeling</label>
                     <label>Activities</label> */}
                 </div>
-            </div>
+            </nav>
         )
     }
 }

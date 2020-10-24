@@ -7,12 +7,12 @@ import Contact from '../Contacts.js'
 class modelingP1 extends Component{
     render(){
         return(
-            <div className='container-flex-modelingP1'>
+            <main className='container-flex-modelingP1'>
                 {/* <LandingPage /> */}
                 <Nav />
                 <Content />
                 <Contact/>
-            </div>
+            </main>
         )
     }
 }
