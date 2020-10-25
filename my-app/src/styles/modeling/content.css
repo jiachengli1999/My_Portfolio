@@ -19,7 +19,7 @@
     align-items: center;
     flex-direction: column;
     /* padding: 70px; */
-    height: 45vh;
+    min-height: 45vh;
 }
 .title-flex > h1{
     color: white;
