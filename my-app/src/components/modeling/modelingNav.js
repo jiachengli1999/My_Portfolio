@@ -14,6 +14,9 @@ class modelingNav extends Component{
                     <Link to="room-page" activeClass='active' spy={true} smooth={true} offset={-30} duration={500}>
                         The Room 
                     </Link>
+                    <Link to="character-page" activeClass='active' spy={true} smooth={true} offset={-30} duration={500}>
+                        Character 
+                    </Link>
                     <Link to="contacts-page" activeClass='active' spy={true} smooth={true} offset={-30} duration={500}>
                         Contacts 
                     </Link>

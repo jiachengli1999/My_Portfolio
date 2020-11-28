@@ -72,6 +72,7 @@ class About extends Component{
                     <div className='picture-about'>
                         <img src={profilePic}/>
                         <h2>New York University</h2>
+                        <h3>Sept 2017 - Dec 2020</h3>
                         <h3>Computer Science BS, Minor in Math</h3>
                     </div>
                     <div className='technologies-about'>
