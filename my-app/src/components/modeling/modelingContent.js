@@ -15,7 +15,7 @@ class modelingContent extends Component{
                     <Fade top>
                     <div className='title-container'>
                         <Particles 
-                            params={{ particles: { number: { value: 60,}, lineLinked: { enable: true, }, },}} 
+                            params={{ particles: { number: { value: 20,}, lineLinked: { enable: true, }, },}} 
                             className='particles-modeling' 
                         />
                         <div className='title-flex'>
@@ -52,7 +52,7 @@ class modelingContent extends Component{
                 <Fade>
                 <div className='title-container' id='character-page'>
                     <Particles 
-                        params={{ particles: { number: { value: 60,}, lineLinked: { enable: true, }, },}} 
+                        params={{ particles: { number: { value: 20,}, lineLinked: { enable: true, }, },}} 
                         className='particles-modeling' 
                     />
                     <div className='title-flex'>
