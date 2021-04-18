@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eacccf6f50c4caad28ad16e3bdaf4be3",
+    "revision": "b7b471e48c823b2e9c198eedc7631d84",
     "url": "/My_Portfolio/index.html"
   },
   {
-    "revision": "8f7e4742aa93f45340b1",
+    "revision": "263210860557efb8e98c",
     "url": "/My_Portfolio/static/css/main.11c8af6b.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/My_Portfolio/static/js/2.ccf7de83.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8f7e4742aa93f45340b1",
-    "url": "/My_Portfolio/static/js/main.70a16dd9.chunk.js"
+    "revision": "263210860557efb8e98c",
+    "url": "/My_Portfolio/static/js/main.f0a6c16a.chunk.js"
   },
   {
     "revision": "7b1bdbeac2c7433307b0",
@@ -116,6 +116,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/My_Portfolio/static/media/mysql.b018dd4e.svg"
   },
   {
+    "revision": "21dcfecf64d971922f768c3a306c9ee4",
+    "url": "/My_Portfolio/static/media/newsPortal.21dcfecf.png"
+  },
+  {
     "revision": "3ca7428a658cfe70e9f1e93d9ce420fe",
     "url": "/My_Portfolio/static/media/profile_pic.3ca7428a.jpg"
   },
@@ -158,10 +162,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "be5e748bddf8aef833ee304719e03621",
     "url": "/My_Portfolio/static/media/ufinance.be5e748b.PNG"
-  },
-  {
-    "revision": "19280ac4c6c07f69ace0f1b7e45c5943",
-    "url": "/My_Portfolio/static/media/web_dev.19280ac4.PNG"
   },
   {
     "revision": "cd291b7d4be7ac2e86e153571c43e172",

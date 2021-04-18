@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/My_Portfolio/static/css/main.11c8af6b.chunk.css",
-    "main.js": "/My_Portfolio/static/js/main.70a16dd9.chunk.js",
-    "main.js.map": "/My_Portfolio/static/js/main.70a16dd9.chunk.js.map",
+    "main.js": "/My_Portfolio/static/js/main.f0a6c16a.chunk.js",
+    "main.js.map": "/My_Portfolio/static/js/main.f0a6c16a.chunk.js.map",
     "runtime-main.js": "/My_Portfolio/static/js/runtime-main.ad15eb1b.js",
     "runtime-main.js.map": "/My_Portfolio/static/js/runtime-main.ad15eb1b.js.map",
     "static/js/2.ccf7de83.chunk.js": "/My_Portfolio/static/js/2.ccf7de83.chunk.js",
     "static/js/2.ccf7de83.chunk.js.map": "/My_Portfolio/static/js/2.ccf7de83.chunk.js.map",
     "index.html": "/My_Portfolio/index.html",
-    "precache-manifest.0905fe65d6cb4f642f7bec5d23f923c8.js": "/My_Portfolio/precache-manifest.0905fe65d6cb4f642f7bec5d23f923c8.js",
+    "precache-manifest.3a3ca9cba931faf4d6172416cc6dae09.js": "/My_Portfolio/precache-manifest.3a3ca9cba931faf4d6172416cc6dae09.js",
     "service-worker.js": "/My_Portfolio/service-worker.js",
     "static/css/main.11c8af6b.chunk.css.map": "/My_Portfolio/static/css/main.11c8af6b.chunk.css.map",
     "static/js/2.ccf7de83.chunk.js.LICENSE.txt": "/My_Portfolio/static/js/2.ccf7de83.chunk.js.LICENSE.txt",
@@ -35,6 +35,7 @@
     "static/media/linkedin_logo.svg": "/My_Portfolio/static/media/linkedin_logo.4b475fb3.svg",
     "static/media/mobile_dev.svg": "/My_Portfolio/static/media/mobile_dev.562365e3.svg",
     "static/media/mysql.svg": "/My_Portfolio/static/media/mysql.b018dd4e.svg",
+    "static/media/newsPortal.png": "/My_Portfolio/static/media/newsPortal.21dcfecf.png",
     "static/media/profile_pic.jpg": "/My_Portfolio/static/media/profile_pic.3ca7428a.jpg",
     "static/media/python.svg": "/My_Portfolio/static/media/python.e2f7de8b.svg",
     "static/media/react.svg": "/My_Portfolio/static/media/react.eab76719.svg",
@@ -46,13 +47,12 @@
     "static/media/todo.PNG": "/My_Portfolio/static/media/todo.ffb2859b.PNG",
     "static/media/totoro.PNG": "/My_Portfolio/static/media/totoro.76891316.PNG",
     "static/media/ufinance.PNG": "/My_Portfolio/static/media/ufinance.be5e748b.PNG",
-    "static/media/web_dev.PNG": "/My_Portfolio/static/media/web_dev.19280ac4.PNG",
     "static/media/web_dev.svg": "/My_Portfolio/static/media/web_dev.cd291b7d.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.ad15eb1b.js",
     "static/js/2.ccf7de83.chunk.js",
     "static/css/main.11c8af6b.chunk.css",
-    "static/js/main.70a16dd9.chunk.js"
+    "static/js/main.f0a6c16a.chunk.js"
   ]
 }
