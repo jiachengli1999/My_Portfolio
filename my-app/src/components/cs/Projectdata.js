@@ -5,9 +5,19 @@ const Projectdata = [
         link: 'https://github.com/ml5803/uFinance',
     },
     {
+        name: 'News Portal', 
+        imgurl: require('../../images/newsPortal.png'),
+        link: 'https://github.com/jiachengli1999/NewsPortal',
+    },
+    {
         name: 'Card Memory Game', 
         imgurl: require('../../images/among_us.PNG'),
         link: 'https://jiachengli1999.github.io/card_matching_game/',
+    },
+    {
+        name: 'Shortest Path Visualizer', 
+        imgurl: require('../../images/shortest_path_visualizer.PNG'),
+        link: 'https://jiachengli1999.github.io/Shortest_Path_Visualizer/',
     },
     {
         name: 'Sorting Visualizer', 
@@ -34,16 +44,6 @@ const Projectdata = [
         name: 'To Do List', 
         imgurl: require('../../images/todo.PNG'),
         link: 'https://github.com/jiachengli1999/To-Do-List-Website',
-    },
-    {
-        name: 'Compass Clock', 
-        imgurl: require('../../images/compass_clock.PNG'),
-        link: 'https://jiachengli1999.github.io/Compass-Clock-using-React/',
-    },
-    {
-        name: 'Intro to Web Dev', 
-        imgurl: require('../../images/web_dev.PNG'),
-        link: 'https://jiachengli1999.github.io/IDM-Fall-2020-Web-dev/#/',
     },
 
 ]
